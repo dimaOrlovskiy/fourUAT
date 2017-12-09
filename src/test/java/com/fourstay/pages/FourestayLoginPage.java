@@ -16,7 +16,7 @@ public class FourestayLoginPage {
     	@FindBy(id= "email")
     	public WebElement userName;
     	
-    	@FindBy(id="key")
+    	@FindBy(name="password")
     	public WebElement Password;
     	
     	@FindBy(id="btn-login")
@@ -24,7 +24,7 @@ public class FourestayLoginPage {
     	
     	@FindBy(xpath="//span[.='LOGOUT']")
     	public WebElement Logout;
-    	
+    	//Some changes
     	
     }
 	
